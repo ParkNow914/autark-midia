@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="referrer" content="strict-origin-when-cross-origin" />
+<meta name="robots" content="noindex, follow" />
+<title>Mídia — Autark</title>
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'" />
+<style>
+  :root { color-scheme: dark light; }
+  body {
+    margin: 0; min-height: 100vh; display: grid; place-items: center;
+    background: #050810; color: #e7ecf3; padding: 24px;
+    font: 16px/1.6 ui-sans-serif, system-ui, sans-serif;
+  }
+  main { max-width: 34rem; }
+  h1 { font-size: 1.4rem; margin: 0 0 12px; letter-spacing: .01em; }
+  p { color: #8b96a9; margin: 0 0 12px; }
+  a { color: #34d399; }
+  code { color: #22d3ee; font-family: ui-monospace, monospace; font-size: .92em; }
+</style>
+</head>
+<body>
+  <main>
+    <h1>Mídia da Autark</h1>
+    <p>
+      Este endereço hospeda as imagens dos carrosséis já publicados no Instagram
+      <a href="https://www.instagram.com/autark.tech/">@autark.tech</a>.
+    </p>
+    <p>
+      Ele é público por uma razão técnica: a API de publicação da Meta
+      <strong>baixa</strong> a imagem por HTTPS — não existe envio de bytes para
+      foto. A URL precisa responder no momento em que o post é criado.
+    </p>
+    <p>
+      Cada post fica em <code>/&lt;data-slug&gt;/01.png</code>. Só entra aqui
+      imagem já aprovada, que vai virar pública no Instagram de qualquer forma.
+    </p>
+    <p><a href="https://parknow914.github.io/">Ver o portfólio</a></p>
+  </main>
+</body>
+</html>
